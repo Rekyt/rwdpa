@@ -1,9 +1,10 @@
 Package: rwdpa
-Title: What the Package Does (one line, title case)
+Title: World Database of Protected Area API Client
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Matthias", "Grenie", email = "matthias.grenie@gmail.com",
+                  role = c("aut", "cre"))
+Description: This package let you connect to the WDPA (https://www.protectedplanet.net) API directly from R and retrieve data from it
 Depends: R (>= 3.3.1)
-License: What license is it under?
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
