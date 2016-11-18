@@ -1,21 +1,31 @@
 # Function to test if token works
 
-#' Function to test if key is valid
+#' Test if API key is valid
+#'
+#' Check if your provided API key works with protected planet. Returns
+#' \code{TRUE} if key is valid, returns \code{FALSE} otherwise.
+#' @param key your API key as provided by Protected Planet
 #' @import httr
 #' @export
-wdpa_test = function(key = NULL, ...) {
+wdpa_test = function(key = NULL) {
     # Query
     raw_query = GET(wdpa_base(), path = "test",
                     query = list(token = check_key(key)))
 
     # Converts error in query result into R errors
-    stop_for_status(content(raw_query))
+    stop_for_status(raw_query)
 
     # Parse Query result
     query_result = jsonlite::fromJSON(content(raw_query, as = "text",
                                               type = "UTF-8"))
 
-    return(query_result)
+    if (query_result$status == "Success!") {
+        result = TRUE
+    } else {
+        result = FALSE
+    }
+
+    return(result)
 }
 
 # Function to get key from Scott Chamberlain 'rredlist' package
