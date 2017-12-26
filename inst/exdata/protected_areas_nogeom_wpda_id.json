@@ -1,0 +1,55 @@
+{
+    "protected_area": {
+        "id": 40366,
+        "name": "Kaniabizo",
+        "original_name": "Kaniabizo",
+        "wdpa_id": 40366,
+        "links": {
+            "protected_planet": "http://protectedplanet.net/40366"
+        },
+        "geojson": {
+            "type": "Feature",
+            "properties": {
+                "fill-opacity": 0.7,
+                "stroke-width": 0.05,
+                "stroke": "#40541b",
+                "fill": "#83ad35",
+                "marker-color": "#2B3146"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [ 29.785, -0.692 ],
+                        [ 29.782, -0.687 ],
+                        [ 29.785, -0.683 ],
+                        [ 29.789, -0.688 ],
+                        [ 29.785, -0.692 ]
+                    ]
+                ]
+            }
+        },
+        "countries": [
+            {
+                "name": "Uganda",
+                "iso_3": "UGA",
+                "id": "UGA"
+            }
+        ],
+        "sublocations": {},
+        "iucn_category": {
+            "id": 8,
+            "name": "Not Reported"
+        },
+        "designation": {
+            "id": 3,
+            "name": "Forest Reserve",
+            jurisdiction: {
+              id: 1,
+              name: "National"
+            }
+        },
+        "marine": false
+    }
+}
+

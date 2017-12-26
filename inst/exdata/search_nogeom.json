@@ -1,0 +1,64 @@
+{
+    "protected_areas": [
+        {
+            "id": 6722,
+            "name": "Keti Bunder South",
+            "original_name": "Keti Bunder South",
+            "wdpa_id": 6722,
+            "links": {
+                "protected_planet": "http://protectedplanet.net/6722"
+            },
+            "countries": [
+                {
+                    "name": "Pakistan",
+                    "iso_3": "PAK",
+                    "id": "PAK"
+                }
+            ],
+            "sublocations": {},
+            "iucn_category": {
+                "id": 8,
+                "name": "Not Reported"
+            },
+            "designation": {
+                "id": 3,
+                "name": "Forest Reserve",
+                jurisdiction: {
+                  id: 1,
+                  name: "National"
+                }
+            },
+            "marine": false
+        },
+        {
+            "id": 166899,
+            "name": "Kyliiske Mouth",
+            "original_name": "Kyliiske Mouth",
+            "wdpa_id": 166899,
+            "links": {
+                "protected_planet": "http://protectedplanet.net/166899"
+            },
+            "countries": [
+                {
+                    "name": "Ukraine",
+                    "iso_3": "UKR",
+                    "id": "UKR"
+                }
+            ],
+            "sublocations": {},
+            "iucn_category": {
+                "id": 8,
+                "name": "Not Reported"
+            },
+            "designation": {
+                "id": 3,
+                "name": "Forest Reserve",
+                jurisdiction: {
+                  id: 1,
+                  name: "National"
+                }
+            },
+            "marine": false
+        }
+    ]
+}
